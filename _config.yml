@@ -13,29 +13,29 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: 辣椒の酱
+        title:
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url: https://removeif.github.io/
+        url:
         # Page cover (og:image) (optional) Default to the Open Graph image or thumbnail of the page
         # You should leave this blank for most of the time
         image: https://cdn.jsdelivr.net/gh/removeif/removeif.github.io@latest/img/avatar.jpg
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 辣椒の酱
+        site_name:
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: removeif
+        author:
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: java,技术分享,后端开发,支付框架,数据接口,算法,leetcode
+        description:
         # Twitter card type (twitter:card)
         twitter_card:
         # Twitter ID (twitter:creator)
-        twitter_id:
+        twitter_id: iLKMgFDW4nzF8Et
         # Twitter ID (twitter:creator)
         twitter_site:
         # Google+ profile link (deprecated)
@@ -49,16 +49,16 @@ head:
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title: 辣椒の酱
+        title:
         # Page description (optional)
         # You should leave this blank for most of the time
-        description: java,技术分享,后端开发,支付框架,数据接口,算法,leetcode
+        description:
         # Page URL (optional)
         # You should leave this blank for most of the time
-        url: https://removeif.github.io/
+        url:
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: removeif
+        author:
         # Page images (optional) Default to the Open Graph image or thumbnail of the page
         # You should leave this blank for most of the time
         image: https://cdn.jsdelivr.net/gh/removeif/removeif.github.io@latest/img/avatar.jpg
@@ -77,7 +77,6 @@ navbar:
         归档: /archives
         分类: /categories
         标签: /tags
-        律法: /tags/法律/
         影音: /media
         相册: /album
         友链: /friend
@@ -182,30 +181,30 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: 辣椒の酱
+        author: Jay Gatsby
         # Title of the author to be shown in the profile widget
-        author_title: 尚未执佩剑，转眼即江湖
+        author_title: You see, I'm Gatsby.
         # Author's current location to be shown in the profile widget
-        location: 阿尔及利亚
+        location:
         # Path or URL to the avatar to be shown in the profile widget
-        avatar: https://cdn.jsdelivr.net/gh/removeif/removeif.github.io@latest/img/avatar.jpg
+        avatar: https://cdn.jsdelivr.net/gh/a347807131/cdn/images/20200303174300.png
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
-        gravatar:
+        gravatar: a347807131@gmail.com
         # URL or path for the follow button
         follow_link: 'https://weibo.com/u/3050419984'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/removeif'
-            Weibo:
-                icon: fab fa-weibo
-                url: 'https://weibo.com/u/3050419984'
+                url: 'https://github.com/a347807131'
+            #            Weibo:
+            #                icon: fab fa-weibo
+            #                url: 'https://weibo.com/u/3050419984'
             Email:
                 icon: fa fa-envelope
-                url: 'mailto:removeif@163.com'
+                url: 'mailto:a347807131@gmial.com'
             Next:
                 icon: fab fa-dribbble
                 url: 'https://removeif.github.io/remove.io'
@@ -218,14 +217,14 @@ widgets:
     -
         position: right
         type: latest_comment
-#    -
-#        # Where should the widget be placed, left sidebar or right sidebar
-#        position: left
-#        type: links
-#        # Names and URLs of the sites
-#        links:
-#            Hexo: 'https://hexo.io'
-#            Bulma: 'https://bulma.io'
+    #    -
+    #        # Where should the widget be placed, left sidebar or right sidebar
+    #        position: left
+    #        type: links
+    #        # Names and URLs of the sites
+    #        links:
+    #            Hexo: 'https://hexo.io'
+    #            Bulma: 'https://bulma.io'
     # Recent posts widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -254,7 +253,7 @@ widgets:
         # Hint text under the email input
         description: 输入邮箱开始订阅，更博后邮件通知！
         # Feedburner ID
-        feedburner_id: removeifFeedsId
+        feedburner_id: gatsby/eFSx
     # Google AdSense unit configurations
 #    -
 #        # Where should the widget be placed, left sidebar or right sidebar
@@ -296,7 +295,7 @@ plugins:
     katex: false
     # Enable the MathJax math typesetting support
     # https://www.mathjax.org/
-    mathjax: false
+    mathjax: true
     # Enable the Outdated Browser plugin
     # http://outdatedbrowser.com/
     outdated_browser: false
@@ -317,15 +316,15 @@ providers:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: gitalk
+    type: disqus
     # Disqus shortname
-#    shortname: ''
-    owner: removeif         # (required) GitHub user name
-    repo: blog_comment          # (required) GitHub repository name
-    client_id: 46a9f3481b46ea0129d8     # (required) OAuth application client id
-    client_secret: 79c7c9cb847e141757d7864453bcbf89f0655b24 # (required) OAuth application client secret
-    admin: ['removeif']
-    create_issue_manually: true
+    shortname: 'jgatsby'
+    owner: a347807131         # (required) GitHub user name
+    repo: gitalk_comments          # (required) GitHub repository name
+    client_id: 110b11bc3cbd1aa3d561     # (required) OAuth application client id
+    client_secret: 535ee58c03371b93d0918d99514f69d267550838 # (required) OAuth application client secret
+    admin: ['a347807131']
+    create_issue_manually: false
     distraction_free_mode: false
     has_hot_recommend: true # 是否有热门推荐
     has_latest_comment: true #是否有最新评论
